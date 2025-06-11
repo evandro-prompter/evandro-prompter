@@ -12,7 +12,7 @@ Repositório documentando meu aprendizado em técnicas avançadas de prompts (De
    - Calculo de food cost comparando 3 cidades
    - Extração automática de dados de fichas técnicas.  
    - Comparativo de rentabilidade entre cidades. // 
-   - [Ver Métodos](/casos_de_uso/talharim.md)  
+   - [Ver Métodos]([/casos_de_uso/talharim.md](https://github.com/evandro-prompter/evandro-prompter/blob/Casos-de-uso/food_cost_talharim))  
 
 ## 🛠️ Tecnologias Usadas
 - ChatGPT API (simulação)
