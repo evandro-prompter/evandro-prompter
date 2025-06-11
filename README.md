@@ -1,32 +1,24 @@
+# Prompt Engineering: Aplicações Reais
 
-- 👋 Olá, eu sou o @evandro-prompter
-- 🌟 Estudando Prompt Engineering
-- 👀 Meus interesses são aprendizado de máquina, IA direcionada a soluções para negócios e filosofia em geral.
-- 🌱 Atualmente estou aprendendo detalhes e nuances de LLMs(DeepSeek, GPT, Gemini, MSCopilot and Dall-e), Cot, RAG e mais métodos de prompts para obter os melhores resultados das IA
-- 💞️ Procuro colaborar e interagir com soluções e análises para negócios e LLMs que ajudem as pessoas a economizar tempo para resolver seus problemas.
-- 📫 Contato: cntt.evsilva@gmail.com (em breve redes sociais)
-- 😄 Pronomes: Ele/Dele
-- ⚡ Curiosidade: Após terminar meu curso técnico em TI, me mudei para Lisboa com 19 anos para seguir um sonho de cozinha de alto nível, agora voltei a área de TI e estou devorando conhecimento sobre IA hahaha
-- 
+Repositório documentando meu aprendizado em técnicas avançadas de prompts (DeepThink, CoT, RAG) através de casos práticos, com mentoria do [DeepSeek Chat](https://deepseek.com).
 
-- "O segredo é acrescentar conhecimento ao conhecimento."           "Quem ama, ama a essência e não a forma."
-    — Ada Lovelace                                                          —Autor desconhecido
+## 📚 Casos de Uso
+1. **Otimização de Promoção em Bar Noturno**  
+   - Problema: Como dobrar vendas sem perder lucro?  
+   - Técnicas: Chain-of-Thought (cálculos) + DeepThink (riscos ocultos e análises de possíveis insights).  
+   - [Ver Análise Completa](/casos_de_uso/bar_guriri.md)  
 
+2. **Food Cost com RAG**
+   - Calculo de food cost comparando 3 cidades
+   - Extração automática de dados de fichas técnicas.  
+   - Comparativo de rentabilidade entre cidades. // 
+   - [Ver Métodos](/casos_de_uso/talharim.md)  
 
+## 🛠️ Tecnologias Usadas
+- ChatGPT API (simulação)
+- Python (para cálculos)
+- Markdown (documentação)
 
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-- 👋 Hi, I’m @evandro-prompter
-- 🌟 Studying Prompt Engineering
-- 👀 I’m interested in machine learning, AI as tool to business analitycs and phylosophy
-- 🌱 I’m currently learning details about LLMs(DeepSeek, GPT, Gemini, MSCopilot and Dall-e), CoT, RAG and more prompts methods to extract the better of AI
-- 💞️ I’m looking to collaborate on business analytics and LLMs that help people save time in theyr solutions
-- 📫 Contact me: cntt.evsilva@gmail.com (soon more social midias)
-- 😄 Pronouns: He/Him
-- ⚡ Fun fact: I've done my IT studies and moved alone to Lisbon with 19yo to chase my dream of be a high kitchen chef, now im back in IT and devouring AI knowledge haha
-
-- "The secret is add knowledge to knowledge"                "Whoever loves, loves the essence and not the form."
-    — Ada Lovelace                                                  —Unknown author
+## 🌟 Lições Aprendidas
+- Como combinar CoT + RAG + DeepThink para decisões estratégicas.  
+- A importância de variáveis não óbvias (ex.: impacto da cultura local nas vendas).
