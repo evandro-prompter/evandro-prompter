@@ -1,11 +1,13 @@
 
 - 👋 Olá, eu sou o @evandro-prompter
+- 🌟 Estudando Prompt Engineering
 - 👀 Meus interesses são aprendizado de máquina, IA direcionada a soluções para negócios e filosofia em geral.
 - 🌱 Atualmente estou aprendendo detalhes e nuances de LLMs(DeepSeek, GPT, Gemini, MSCopilot and Dall-e), Cot, RAG e mais métodos de prompts para obter os melhores resultados das IA
 - 💞️ Procuro colaborar e interagir com soluções e análises para negócios e LLMs que ajudem as pessoas a economizar tempo para resolver seus problemas.
 - 📫 Contato: cntt.evsilva@gmail.com (em breve redes sociais)
 - 😄 Pronomes: Ele/Dele
 - ⚡ Curiosidade: Após terminar meu curso técnico em TI, me mudei para Lisboa com 19 anos para seguir um sonho de cozinha de alto nível, agora voltei a área de TI e estou devorando conhecimento sobre IA hahaha
+- 
 
 - "O segredo é acrescentar conhecimento ao conhecimento."           "Quem ama, ama a essência e não a forma."
     — Ada Lovelace                                                          —Autor desconhecido
@@ -18,6 +20,7 @@
 
 
 - 👋 Hi, I’m @evandro-prompter
+- 🌟 Studying Prompt Engineering
 - 👀 I’m interested in machine learning, AI as tool to business analitycs and phylosophy
 - 🌱 I’m currently learning details about LLMs(DeepSeek, GPT, Gemini, MSCopilot and Dall-e), CoT, RAG and more prompts methods to extract the better of AI
 - 💞️ I’m looking to collaborate on business analytics and LLMs that help people save time in theyr solutions
