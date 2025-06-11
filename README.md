@@ -6,7 +6,7 @@ Repositório documentando meu aprendizado em técnicas avançadas de prompts (De
 1. **Otimização de Promoção em Bar Noturno**  
    - Problema: Como dobrar vendas sem perder lucro?  
    - Técnicas: Chain-of-Thought (cálculos) + DeepThink (riscos ocultos e análises de possíveis insights).  
-   - [Ver Análise Completa](/casos_de_uso/bar_guriri.md)  
+   - [Ver Análise Completa](bar_guriri)  
 
 2. **Food Cost com RAG**
    - Calculo de food cost comparando 3 cidades
