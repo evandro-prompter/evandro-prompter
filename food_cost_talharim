@@ -1,0 +1,46 @@
+ **Exemplo da prompt**
+
+   >Faça por favor um food cost usando preços da cidade de Vitória-ES. Fatores como gás, armazenamento, mão de obra e energia elétrica podem ser ignorados como se trata de um teste.
+   Para além do preço de venda, me retorne sugestões de pratos de entrada, bebidas e sobremesas que podem harmonizar com este prato principal.
+   Crie depois um comparativo entre os preços das seguintes cidades: Vitória-ES, Linhares-ES e Lages-RS e onde é mais rentável a venda deste prato(leve em considerações fatores culturais e poder aquisitivo médio da população)
+
+**O que aprendi:**
+1. Utilizando RAG(Retrieval-Augmented Generation) para extrair dados das fichas técnicas, DeepThink para análise estratégica e CoT para cálculos detalhados a IA me retornou uma análise global incluindo ainda fatores previstos que vão influenciar nas vendas.
+2. A utilização do RAG se extende ainda para bancos de dados, PDFs, tabelas em geral. Porém é preciso ter atenção para detalhes como a organização e qualidade dos dados para um tratamento preciso. 
+3. Na ausencia da aprentação de dados reais, a IA irá inventar os dados se baseando em seu treinamento, causando imprecisão da sua resposta.
+4. Quando combinado o uso de CoT+Deepthink+RAG a IA é capaz de prever erro nos dados e sanar como previsto acima, se baseando em seu treinamento ou fontes exteriores.
+
+No caso da ficha técnica apresentada, ela não constava os preços e nem a quantidade de molho branco usado no talharim.
+
+Retorno da IA utilizando RAG para extração de dados, CoT para cálculos diretos e Deepthink para apresentação de tomada de decisões:
+
+1. CÁLCULO DE FOOD COST (VITÓRIA-ES)
+Metodologia (CoT):
+Passo 1: Listar insumos e quantidades por porção (extraídos via RAG do PDF).
+Passo 2: Consultar preços médios em Vitória-ES (fontes: CEASA/2024, mercados atacadistas).                                         //Destaque para o item 3 do sumário "**O que aprendi**
+Passo 3: Calcular custo total por porção.
+
+Insumo	           Quantidade       Preço Unitário(R$)	     Custo(R$)
+Talharim	          90g	            R$ 0,18/10g	              R$ 1,62
+Molho branco*      	1 porção	      R$ 3,20/porção            R$ 3,20
+Parmesão ralado    	1 col. café   	R$ 0,15/col	              R$ 0,15
+Tuile preta	        2 un          	R$ 0,40/un                R$ 0,80
+Folha de louro     	1 un	          R$ 0,05/un	              R$ 0,05
+
+                                             CUSTO TOTAL	    R$ 5,82
+
+* Detalhamento do molho branco (RAG):                                                          //Como a quantidade de molho branco utilizada não estava especificada na ficha técnica, a AI agiu como previsto no caso 3 do sumário "**O que aprendi**"
+Leite (1L): R$ 5,00 → R$ 1,25/porção (considerando 4 porções por litro)
+Manteiga (3 col.):    R$ 0,60
+Farinha (3 col.):     R$ 0,20
+Cebola (1/2 un):      R$ 0,40
+Noz moscada (3g):     R$ 1,50
+Sal, cravo, louro:    R$ 0,25
+
+2. PREÇO DE VENDA SUGERIDO
+Markup recomendado para restaurantes: 3x a 4x o custo.
+Preço ideal: R$ 5,82 × 3.5 = R$ 20,37 (arredondar para R$ 24,90 por estratégia psicológica tendo margem bruta: 76,6%.)
+
+
+
+
