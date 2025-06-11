@@ -1,0 +1,79 @@
+> **Exemplo de Prompt:**  
+
+"Agora, vou apresentar um problema embaçado como você mesmo disse, e depois pedir uma solução direta para algo que deve estar atrelado, ou será desencadeado.
+
+Um CoT dentro de um Deep Think.
+
+Um bar noturno na ilha de Guriri(São Mateus-ES), fora do verão costuma ter seu pico de vendas nas segundas sexta feiras do mês, pois é quando a maioria das pessoas já recebeu seu salário e vão ter lazer.
+O dono do bar sabe que o pico de vendas se concentra entre as 22h00 e 01h00, tendo em conta a alta concorrência ele resolve fazer uma promoção, mas não quer perder seu lucro.
+O produto selecionado será seu item mais vendido, uma skol 600ml que custa R$10,00, a mesma é comprada por R$5,33 e tem um custo de armazenamento de R$0,90.
+Considerando que ele já venda em média 100 por cada sexta feira dessa, qual o preço que ele deveria fazer para dobrar sua vendas e manter ou ampliar seu lucro?."  
+
+**O que aprendi:**  
+   A técnica DeepThink permite que a AI pense em "360º" apresentando variáveis ignoradas pelo usuário, e ainda sugere um resultado o qual julga mais efeito, acompanhe pelo exemplo:
+1- Intervalo de vendas
+2- Foco em produtos com maior margem de lucro
+3- Capacidade operacional(funcionários, estoque, capacidade de acolhimento/atendimento do local)
+4- Apresentar soluções alternativas práticas para que o objetivo do usuário seja atingido
+   Quando utilizado em conjunto com o CoT(que irá trazer os cálculos matemáticos precisos e solução passo-a-passo) o DeepThink irá analisar o melhor caso para otimizar lucro.
+
+Ex: No caso deste bar, a AI me apresentou variáveis que foram negligenciadas.
+
+1. Elasticidade-preço: dobrar vendas exige redução percentual maior que a média
+2. Capacidade operacional: pode atender 200 clientes nesse período?
+3. Efeito canibalização: vender mais cerveja pode reduzir vendas de itens mais lucrativos
+4. Custos marginais: armazenagem adicional, contratação extra
+
+-Deep think:
+Dados Críticos Ignorados:
+Custo Atual	            Valor
+Custo de compra        	R$ 5,33
+Custo armazenamento	    R$ 0,90
+Custo total/un          	R$ 6,23
+Lucro atual/un	          R$ 10,00 - R$ 6,23 = R$ 3,77
+Lucro total no pico	      100 un × R$ 3,77 = R$ 377,00
+
+3. Cenários de Risco (Simulação):
+Preço Promo	  Vendas	Lucro Total	     Risco
+R$ 7,00	        200	  R$ 154,00	     Perda de 59%
+R$ 8,00       	200	  R$ 354,00	     Quase igual ao atual
+R$ 8,50	        180	  R$ 408,60	     Melhor opção
+
+Juntamente com o insight: Dobrar vendas exige preço ≤ R$ 8,00, mas inviabiliza o lucro. Solução real: Aumentar vendas em 80% (não 100%).                   // Recurso precioso do DeepThink
+
+-Apresentação do CoT : QUAL PREÇO PARA LUCRO ≥ R$ 377?
+Objetivo: Lucro total ≥ R$ 377,00 com 180 vendas (aumento viável de 80%).
+
+Lucro = [Preço - Custo Total] × Quantidade  
+377 ≤ [Preço - 6,23] × 180  
+
+Conclusão CoT:
+  Preço ideal: R$ 8,32 (arredondar para R$ 8,50 por psicologia de consumo).                                                      //Com as ferramentas combinadas, a IA ainda apresenta uma opção que usa da neurociência humana para otimizar lucros
+
+Resultado:
+  •Vendas: 180 un                                                                                        //Assumindo que dobrar as vendas são é o ideial, a IA buscou o menor número de vendas para se ter o maior lucro possível
+  •Lucro total: (8,50 - 6,23) × 180 = R$ 408,60 (+8,4% que o atual).                                     // O objetivo direto foi atingido, mas não é o melhor cenário, observe a seguir como o Deep Think usa o caso de drinks(maior margem de lucro)
+
+  
+
+ --  SOLUÇÃO PROFISSIONAL (DEEPTHINK + CoT) 
+1. Não promova a Skol! Use-a como isca:
+   •"Compre 2 Skols (R$ 8,50 cada) e ganhe 50% no drink!"
+   •Assim, mantém o lucro na cerveja e aumenta vendas de alta margem.
+
+2. Mitigue riscos:
+   •Compre a Skol sob demanda (evite custo armazenamento extra).
+   •Acompanhe os preços da concorrência  
+
+
+3.Preço psicológico:
+   • R$ 8,50 (parece "desconto" sobre R$ 10,00).
+   • As pessoas tendem a querer aproveitar as promoções, provávelmente ainda vão pedir o drink         //Neste ponto a promoção se torna efetiva, pois aumenta o giro de mercadorias e remove o ócio operacional
+
+📊 RESUMO EXECUTIVO PARA O DONO DO BAR
+Estratégia                                        	Resultado Esperado
+Skol a R$ 8,50 + combo drink	                     80 Skols + 90 drinks
+Margem do drink (70%)	              Lucro total: R$ 377 (Skol) + R$ 630 (drinks) = R$ 1.007,00     //A IA sugeriu uma promoção onde você usa um produto de margem baixa para atrair o consumidor para um de margem maior e assim ter um hook efetivo e um lucro duas vezes maior que o esperado
+
+
+ 
